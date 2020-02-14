@@ -5,7 +5,7 @@ import application
 pool_time = 60*30
 
 def serve():
-    app.run(port=8000, debug=False)
+    app.run(host='0.0.0.0', port=8000, debug=False)
 
 def crawl():
     while (1):
