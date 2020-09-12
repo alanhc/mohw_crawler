@@ -1,5 +1,7 @@
-# mohw_crawler
+mohw_crawler
+=============
 
+此為爬取衛生福利部的Covid-19的爬蟲練習，藉由python的平行處理，使其可以同時使用Flask host bootstrap的網頁及爬蟲程式。
 ## Usage
 ### setup
 ```code
